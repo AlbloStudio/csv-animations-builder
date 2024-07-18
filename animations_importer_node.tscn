@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://biqusojvj0esq"]
+
+[ext_resource type="Script" path="res://addons/animations_importer/animations_importer_node.gd" id="1_14ihq"]
+
+[node name="AnimationsImporterNode" type="VBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(100, 400)
+offset_top = -2.0
+offset_right = 500.0
+offset_bottom = 848.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_14ihq")
+
+[node name="InfoTree" type="Tree" parent="."]
+unique_name_in_owner = true
+clip_contents = false
+custom_minimum_size = Vector2(100, 250)
+layout_mode = 2
+size_flags_vertical = 3
+columns = 5
+column_titles_visible = true
+hide_root = true
+scroll_horizontal_enabled = false
+scroll_vertical_enabled = false
+
+[node name="ImportButton" type="Button" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_vertical = 0
+text = "Import Animations"
+
+[node name="Info" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(500, 300)
+layout_mode = 2
