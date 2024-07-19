@@ -1,0 +1,8 @@
+animation_name; frame_coords_start_x; frame_coords_start_y; frame_size_x; frame_size_y;frame_duration_ms;frame_count;autoplay_on_load;loop
+idle_front;0;64;64;64;60;10;true;true
+idle_back;0;128;64;64;60;10;false;true
+dash_side;0;192;64;64;50;6;false;true
+dash_down;0;256;64;64;50;6;false;true
+dash_up;0;320;64;64;50;6;false;true
+run_side_right;0;384;68;64;50;10;false;true
+run_side_left;0;448;68;64;50;10;false;true
