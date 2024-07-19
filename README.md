@@ -5,7 +5,7 @@ This is a plugin for Godot that reads properties from a CSV file, creates animat
 
 ### Preparations
 - Ensure your scene includes a `Sprite2D` and an `AnimationPlayer`, with the `Sprite2D` set as the root node.
-- Prepare a CSV file following the format provided in the example [here](example\Atlas_Animations_Data.csv). See [CSV File](#csv-file) for more details.
+- Prepare a CSV file following the format provided in the example [here](addons/csv-animations-builder/example/Atlas_Animations_Data.csv). See [CSV File](#csv-file) for more details.
 - Have an image containing all the frames for your animations, either as an Atlas or a Sprite Sheet. This image will serve as the texture for your `Sprite2D`.
 
 ## Importing the CSV
