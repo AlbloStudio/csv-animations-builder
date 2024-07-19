@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://biqusojvj0esq"]
 
-[ext_resource type="Script" path="res://addons/animations_importer/animations_importer_node.gd" id="1_14ihq"]
+[ext_resource type="Script" path="res://addons/animations_importer/control/animations_importer_node.gd" id="1_14ihq"]
 
 [node name="AnimationsImporterNode" type="VBoxContainer"]
 clip_contents = true
