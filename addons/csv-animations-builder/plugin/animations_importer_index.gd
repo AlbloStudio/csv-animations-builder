@@ -1,8 +1,8 @@
 @tool
 class_name AnimationsImporterIndex extends EditorPlugin
 
-const EDITOR_INSPECTOR = "res://addons/animations_importer/animations_importer_editor_inspector.gd"
-const IMPORTER_RESOURCE = "res://addons/animations_importer/animations_importer_resource.gd"
+const EDITOR_INSPECTOR = "res://addons/animations_importer/plugin/animations_importer_editor_inspector.gd"
+const IMPORTER_RESOURCE = "res://addons/animations_importer/csv_resource/animations_importer_resource.gd"
 
 var plugin: AnimationsImporterEditorInspector
 var resource_plugin: AnimationsImporterResource

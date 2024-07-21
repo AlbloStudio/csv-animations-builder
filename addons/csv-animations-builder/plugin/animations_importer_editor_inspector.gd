@@ -4,7 +4,7 @@ class_name AnimationsImporterEditorInspector extends EditorInspectorPlugin
 
 const CATEGORY := "animations_importer.gd"
 
-var editor = preload("res://addons/animations_importer/animations_importer_node.tscn")
+var editor = preload("res://addons/animations_importer/control/animations_importer_node.tscn")
 
 
 func _can_handle(object: Object) -> bool:
